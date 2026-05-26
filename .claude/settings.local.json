@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npx tailwindcss *)",
+      "Bash(cp \"/home/junelle/Downloads/684246749_1413286390843668_1613786435301193334_n.jpg\" \"./public/menu1.jpg\")",
+      "Bash(cp \"/home/junelle/Downloads/680627343_1413286357510338_2487094962386043222_n.jpg\" \"./public/menu2.jpg\")",
+      "Bash(cp \"/home/junelle/Downloads/682028258_1413286317510342_2962734840006543026_n.jpg\" \"./public/menu3.jpg\")"
+    ]
+  }
+}

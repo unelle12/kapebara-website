@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6F4E37; /* Coffee Brown */
+  --color-secondary: #C2B280; /* Sand/Cream */
+  --color-accent: #ADD8E6; /* Light Blue from the logo drink */
+  --color-background: #FFFDF5; /* Off-white/Warm cream */
+  --color-text: #3E2723; /* Dark Espresso */
+
+  --font-sans: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-serif);
+}
