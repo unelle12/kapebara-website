@@ -23,13 +23,15 @@ const Hero = () => {
       </div>
       <div className="flex-1 relative">
         <div className="absolute -inset-4 bg-accent rounded-full blur-3xl opacity-30 animate-pulse"></div>
-        <div className="relative bg-white p-4 rounded-3xl shadow-xl rotate-3 hover:rotate-0 transition-transform duration-500">
-          <div className="w-full rounded-2xl overflow-hidden animate-float">
-            <img src={heroImg} alt="Capybara Barista" className="w-full h-auto object-contain" />
-          </div>
-          <div className="mt-4 text-center">
-            <p className="font-serif font-bold text-primary">Capy Barista</p>
-            <p className="text-sm opacity-60">Capybara of Happiness</p>
+        <div className="animate-float">
+          <div className="relative bg-white p-4 rounded-3xl shadow-xl rotate-3 hover:rotate-0 transition-transform duration-500">
+            <div className="w-full rounded-2xl overflow-hidden">
+              <img src={heroImg} alt="Capybara Barista" className="w-full h-auto object-contain" />
+            </div>
+            <div className="mt-4 text-center">
+              <p className="font-serif font-bold text-primary">Capy Barista</p>
+              <p className="text-sm opacity-60">Capybara of Happiness</p>
+            </div>
           </div>
         </div>
         <style>{`
